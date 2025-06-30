@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sample College</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #004080;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background: #003366;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background: #0059b3;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+        h2 {
+            border-bottom: 2px solid #004080;
+            padding-bottom: 10px;
+        }
+        .courses, .faculty {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .course, .faculty-member {
+            background: #e6f0ff;
+            padding: 15px;
+            border-radius: 8px;
+            flex: 1 1 300px;
+        }
+        footer {
+            background: #004080;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sample College</h1>
+        <p>Excellence in Education Since 1900</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#courses">Courses</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            Sample College is a premier institution dedicated to providing quality education and fostering innovation and leadership. We offer a range of undergraduate and postgraduate courses designed to prepare students for their professional careers.
+        </p>
+    </section>
+
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <div class="courses">
+            <div class="course">
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p>Learn programming, data structures, algorithms, and more.</p>
+            </div>
+            <div class="course">
+                <h3>Bachelor of Business Administration</h3>
+                <p>Gain knowledge in management, marketing, and finance.</p>
+            </div>
+            <div class="course">
+                <h3>Master of Arts in English Literature</h3>
+                <p>Explore classical and modern literary works and criticism.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="faculty">
+        <h2>Meet Our Faculty</h2>
+        <div class="faculty">
+            <div class="faculty-member">
+                <h3>Dr. Alice Johnson</h3>
+                <p>Professor of Computer Science</p>
+            </div>
+            <div class="faculty-member">
+                <h3>Mr. Robert Smith</h3>
+                <p>Lecturer in Business Administration</p>
+            </div>
+            <div class="faculty-member">
+                <h3>Dr. Emily Clark</h3>
+                <p>Senior Lecturer in English Literature</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@samplecollege.edu</p>
+        <p>Phone: +1 234 567 8900</p>
+        <p>Address: 123 College Avenue, City, Country</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sample College. All rights reserved.</p>
+    </footer>
+</body>
+</html>
